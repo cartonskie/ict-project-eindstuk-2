@@ -5,5 +5,6 @@ basic.forever(function () {
     } else {
         music.stopAllSounds()
         servos.P0.setAngle(0)
+        basic.showString("goed!")
     }
 })
